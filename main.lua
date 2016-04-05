@@ -54,7 +54,7 @@ local function main()
 	print(opt.optim_config)
 	opt.optimizer = optim.rmsprop
 	-- load model
-	local model = dofile('models/'..opt.network..'.lua')
+	local model = dofile(opt.network..'.lua')
     model:cuda()
 	local confusion = optim.ConfusionMatrix(opt.nClass)
 	
