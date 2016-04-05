@@ -1,3 +1,4 @@
+# Deep Stochastic Neighbors Compression
 
 Training a standard lenet5 with softmax:
 
